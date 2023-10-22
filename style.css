@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+}
+
+.firstheader{
+    background-color: black;
+    height: 70px;
+    position: fixed;
+    width: 110%;
+    z-index: 1;
+}
+.head1{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.ss2{
+    color: white;
+    margin-left: 700px;
+}
+.ss3{
+    margin-left: 700px;
+}
+.ss4{
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+}
+.ss5{
+    margin-left: 20px;
+}
+.anim{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-image: url(images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}  
+
+.back{
+    margin-left: 100px; 
+    padding-top: 90px; 
+}
+.form{
+    background-color: rgb(212, 204, 204);
+    margin-left: 150px;
+    width: 750px;
+    margin-top: 90px;
+    height: 800px;
+    border-radius: 5px;
+ 
+ 
+}
+.userform{
+    padding-top: 20px;
+    padding-left: 20px;
+}.address{
+    height: 150px;
+    width: 500px;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=number],Phone number{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email],email{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .submit{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+  }
+  .second{
+    width: 100%;
+    
+   
+    
+  }
+  .what{
+    display: flex;
+    
+  }
+  .slider{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height: 500px;
+    background: url(images/perfume1.png);
+    background-repeat: no-repeat;
+   
+    margin-top: 100px;
+    animation: slider 20s infinite;
+  }
+  @keyframes slider{
+    25% {background-image: url(images/slideimg1.png);}
+    50% {background-image: url(images/perfume1.png);}
+    75% {background-image: url(images/waaaw.png);}
+    100%{background-image: url(images/waw.png);}
+  }
+  .section1{
+    height: 400px;
+    background-color: rgb(222, 236, 236);
+    margin-top: 50px;
+    
+  }
+  .section1{
+    padding-top: 20px;
+    padding-left: 550px;
+    
+    
+  }
+  .table ,th,td{
+    margin-top: 20px;
+    width: 30%;
+    height: 30px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    
+  }
+  .videos{
+    width: 00px;
+    height: 350px;
+  }
+  .expen{
+    padding-left: 50px;
+  }
+  .container{
+    display: grid;
+    grid-template-columns:550px 550px ;
+    justify-content: center;
+    grid-column-gap: 10px ;
+    padding-top: 20PX;
+   
+  }
+  .aar{
+    background-color: rgb(252, 249, 249);
+    height: 100px;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .product{
+    height: 1100px;
+    padding-top: 50px;
+    padding-left: 150px;
+    background-color: rgb(193, 199, 199);
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-column-gap: 20px;
+  }
+  .shopping{
+    background-color: rgb(190, 188, 188);
+    height: 550px;
+  }
+  .buy{
+    background-color: red;
+    height: 40px;
+    border-radius: 20px;
+    width: 90px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .footer{
+    height: 300px;
+    background-color: rgb(43, 43, 53);
+    color: white;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-column-gap: 20px;
+    padding: 100px;
+  }
+  .footer2{
+    line-height: 20px;
+    font-size: medium;
+    font-weight: 500;
+    padding-top: 10px;
+    
+    cursor: pointer;
+  }
+  .footer3{
+    cursor: pointer;
+    padding-top: 10px;
+  }
